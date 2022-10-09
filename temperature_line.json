@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "data":{
+    "url":"https://raw.githubusercontent.com/jfle0011/DataVis2/main/emissions.csv"
+    },
+    "hconcat":[
+      {"width":400,
+        "height": 400,
+        "mark": "line",
+        "params": [
+        {"name": "pbrush", "select": {"type": "interval",
+          "encodings": ["x"]}}],
+        "encoding": {
+          "x":{
+            "field": "Year",
+            "type": "temporal",
+            "title": "Year",
+            "axis":{"tickCount": 7},
+            "scale":{"domain":{"param": "brush"}}
+          },
+      "y":{
+        "field":"AverageTemperature",
+        "type": "quantitative",
+        "title":"Average Temperature (Celsius)",
+        "scale": {"zero":false}
+      }
+    }},
+    {"width":400,
+      "height": 400,
+      "mark": "line",
+      "params": [
+        {"name": "brush", "select": {"type": "interval",
+          "encodings": ["x"]}}
+        ],
+        "encoding": {
+          "x":{
+            "field": "Year",
+            "type": "temporal",
+            "title": "Year",
+            "axis":{"tickCount": 7},
+            "scale":{"domain":{"param": "pbrush"}}
+          },
+          "y":{
+            "field":"CO2 Emissions (Tonnes)",
+            "type": "quantitative",
+            "scale": {"zero":false}}
+        }}
+ 
+    ]
+    
+}
