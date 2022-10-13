@@ -1,0 +1,9 @@
+Source,Output (TWh),Percentage(%),Footprint
+Coal,29248.34126,33.85284492,Pollutant
+Gas,20246.38829,23.4337338,Pollutant
+Hydro,13721.50857,15.88165625,Clean
+Other Renewables,2401.997665,2.780139008,Clean
+Solar,2411.554472,2.791200323,Clean
+Oil,3468.780299,4.014862945,Pollutant
+Wind,5072.475317,5.871024231,Clean
+Nuclear,9827.427664,11.37453853,Pollutant
