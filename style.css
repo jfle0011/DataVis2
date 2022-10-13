@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .vis-container {
