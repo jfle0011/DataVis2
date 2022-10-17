@@ -16,7 +16,7 @@
         "type": "nominal",
         "scale":{
           "domain":["Pollutant", "Clean"],
-          "range":["crimson", "green"]
+          "range":["#c25304", "green"]
         }
       },
       "tooltip":[

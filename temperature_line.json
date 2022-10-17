@@ -45,7 +45,7 @@
             "field":"CO2 Emissions (Tonnes)",
             "type": "quantitative",
             "scale": {"zero":false},
-            "axis":{"format":"e"}
+            "axis":{"format":"~s"}
           }
         }}
  
