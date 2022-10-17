@@ -12,7 +12,7 @@
         "type": "quantitative"
       },
       "color":{
-        "field": "Footprint",
+        "field": "CO2 Footprint",
         "type": "nominal",
         "scale":{
           "domain":["Pollutant", "Clean"],
