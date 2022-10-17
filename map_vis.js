@@ -12,3 +12,8 @@ var vg_3 = "energy_mix2019.json";
 vegaEmbed("#enmix", vg_3).then(function(result) {
 
 }).catch(console.error);
+
+var vg_4 = "target.json";
+vegaEmbed("#status", vg_4).then(function(result) {
+
+}).catch(console.error);
