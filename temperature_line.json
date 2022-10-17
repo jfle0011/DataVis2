@@ -7,7 +7,7 @@
     "hconcat":[
       {"width":400,
         "height": 400,
-        "mark": "line",
+        "mark": {"type": "line","color":"darkorange"},
         "params": [
         {"name": "pbrush", "select": {"type": "interval",
           "encodings": ["x"]}}],
@@ -28,7 +28,7 @@
     }},
     {"width":400,
       "height": 400,
-      "mark": "line",
+      "mark": {"type": "line","color":"darkorange"},
       "params": [
         {"name": "brush", "select": {"type": "interval",
           "encodings": ["x"]}}

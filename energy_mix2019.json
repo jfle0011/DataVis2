@@ -22,7 +22,7 @@
       "tooltip":[
         {"field":"Source", "type": "nominal"},
         {"field": "Percentage(%)", "format":".2f", "type":"quantitative"},
-        {"field":"Footprint", "type": "nominal"}
+        {"field":"CO2 Footprint", "type": "nominal"}
       ]
     }
   }
